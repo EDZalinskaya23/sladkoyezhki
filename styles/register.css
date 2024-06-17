@@ -1,0 +1,101 @@
+
+@import url("footer.css");
+@import url("info.css");
+
+:root {
+  overflow: visible;
+
+}
+.container {
+  width: fit-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #00000055;
+  /* border-radius: 15px; */
+  padding: 60px;
+  justify-content: center;
+
+
+}
+
+h2 {
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+html, :root{
+    height: 100%;
+}
+main {
+  height: calc(100% - 3.35em - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5em auto;
+}
+
+body {
+  overflow-y: visible;
+  box-sizing: border-box;
+  height: 100%;
+  /* border: 3px solid yellow; */
+}
+
+input,
+select,
+textarea,
+button {
+  width: 90%;
+  margin: auto 20px;
+  text-align: left;
+  padding: 5px auto;
+  border: none;
+}
+
+input,
+select,
+textarea {
+  background-color: #d9d9d930;
+  font-size: 1.14rem;
+  resize: none;
+  padding: 10px;
+}
+input,
+select {
+  height: 50px;
+  font-size: large;
+}
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: #000000bb;
+}
+
+button {
+  font-size: 3rem;
+  font-weight: 300;
+  background-color: #ffffffde;
+  transition: 0.3s linear;
+  width: 80%;
+  align-self: center;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #dfbf8953;
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+footer {
+  height: 150px;
+}

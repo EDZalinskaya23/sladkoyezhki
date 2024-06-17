@@ -1,0 +1,87 @@
+@import "nav.css";
+@import "footer.css";
+
+
+
+
+
+:root {
+    --home-page-background-gradient: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.05),
+        rgba(255, 255, 255, 0.05)
+      ),
+      linear-gradient(170deg, #eee8d3 0%, #ecc152 100%);
+    --font: "Comfortaa", cursive;
+    overflow: hidden;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+  }
+  
+  body {
+    background: var(--home-page-background-gradient);
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* The main home page styling */
+  .main-homepage {
+    height: calc(100% - 3.34em - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .main-bg {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffa4;
+    text-align: center;
+    transition: 100ms linear;
+    border-radius: 45px;
+    margin: auto 25px;
+    padding: auto 25px;
+  }
+  
+  /* The h1 titile */
+  .homepage-h1 {
+    margin: auto 20px;
+    font-weight: 900;
+  }
+  
+  .spherical_triangle {
+    background-image: url("../images/spherical_triangle.png");
+    width: 442px;
+    height: 442px;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 250px;
+  }
+  
+  .mathsw {
+    background-image: url("../images/mathsw.png");
+    width: 305px;
+    height: 305px;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -85px;
+    bottom: 300px;
+  }
+  
+  /* Desktop style */
+@media only screen and (min-width: 45em) {
+  /* Changing the main */
+  .main-bg {
+    height: 436px;
+    width: 1230px;
+  }
+}
