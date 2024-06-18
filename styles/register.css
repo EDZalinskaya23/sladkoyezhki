@@ -6,18 +6,17 @@
   overflow: visible;
 
 }
-.container {
+.box {
   width: fit-content;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 40px;
-  background-color: #00000055;
+  background-color:#efcd99aa;
   /* border-radius: 15px; */
   padding: 60px;
   justify-content: center;
-
-
+  z-index: 5;
 }
 
 h2 {
@@ -56,6 +55,7 @@ button {
   text-align: left;
   padding: 5px auto;
   border: none;
+  font-family: cursive;
 }
 
 input,
@@ -75,6 +75,7 @@ input::placeholder,
 select::placeholder,
 textarea::placeholder {
   color: #000000bb;
+  font-family: cursive;
 }
 
 button {

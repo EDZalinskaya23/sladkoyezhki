@@ -5,16 +5,70 @@
         <title>Home Page</title>
 
         <link rel="stylesheet" type="text/css" href="styles/HomePageStyle.css">
+        <link rel="stylesheet" href="styles/footer.css" />
 
     </head>
 
     <body>
 
         <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="index.html">Mathematicians</a>
-            <a href="index.html">About Us</a>
+
+            <div class="container">
+
+                <ul class="navbar-menu">
+                    <li><div class="nav-elem"><a href="index.html">Home</a></div></li>
+                    <li><div class="nav-elem"><a href="#">Mathematicians</a></div>
+                        <ul>    
+                            <li><a href="Pages/Mathematicians/Adam.html">Adam Ries</a></li>
+                            <li><a href="Pages/Mathematicians/Archimedes.html">Archimedes</a></li>
+                            <li><a href="Pages/Mathematicians/Boole.html">George Boole</a></li>
+                            <li><a href="Pages/Mathematicians/Cantor.html">Georg Ferdinand</a></li>
+                            <li><a href="Pages/Mathematicians/Fibonacc.html">Fibonacci</a></li>
+                            <li><a href="Pages/Mathematicians/Gauss.html">Carl Gauss</a></li>
+                            <li><a href="Pages/Mathematicians/H_Alexandria.html">The hero of Alexandrea</a></li>
+                            <li><a href="Pages/Mathematicians/Jordanus.html">Jordanus de Nemore</a></li>
+                            <li><a href="Pages/Mathematicians/Leonhard.html">Leonhard Euler</a></li>
+                            <li><a href="Pages/Mathematicians/Newton.html">Isaac Newton</a></li>
+                            <li><a href="Pages/Mathematicians/Pascal.html">Blaise Pascal</a></li>
+                            <li><a href="Pages/Mathematicians/Pythagoras.html">Blaise Pascal</a></li>
+                        </ul>
+                    </li>
+                    <li><div class="nav-elem"><a href="Pages/About.html">About Us</a></div></li>
+                    <li><div class="nav-elem"><a href="Pages/Contact.html">Contact</a></div></li>
+                </ul>
+                
+                <a class="login" href="Pages/register.html"><img src="Images/navbar/LoginIcon.png" width="50px"></a>
+            </div>
+
         </nav>
+
+        <div class="space"></div>
+
+        <main>
+            <h1 class="welcome">Welcome</h1>
+
+            <div class="textbox">
+
+                <div class="about-the-cite">
+                    <h2>What is this site about?</h2>
+                    <p>In this site you can find interesting information about maths and some mathematicians.</p>
+                </div>
+
+                <div class="quote">
+                    <p class="quote-text">"If I have seen further than others, it is by standing upon the shoulders of giants."</p>
+                    <p class="quote-author">-Isaac Newton</p>
+                </div>
+
+            </div>
+        </main> 
+        <footer>
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+            
+          </footer>
+
 
     </body>
 </html>
